@@ -35,7 +35,7 @@ if ( !@preg_match("/\\pL/u", "ö") ) {
     $haserrors = true;
 }
 // Finns intl-biblioteket?
-$intlstatus = "Intl-biblioteket är installerat";
+$intlstatus = "<a href='http://se1.php.net/manual/en/book.intl.php'>Intl-biblioteket</a> är installerat";
 $intlclass  = "ok";
 if ( !function_exists("collator_create") ) {
     $intlstatus  = "Intl-biblioteket är inte installerat. ";
@@ -66,6 +66,8 @@ if ( $haserrors ) {
   <style>
     body {
         font-family: sans-serif;
+        max-width: 600px;
+        margin: auto;
     }
     table, th, td {
         border: 1px solid;
@@ -121,7 +123,7 @@ echo <<<HTML
           <td class="{$regclass}">{$regstatus}</td>
 HTML;
 ?>
-        <td>kolla</td>
+        <td>16</td>
       </tr>
       <tr>
           <th scope="row">Intl-biblioteket</th>
@@ -130,7 +132,7 @@ echo <<<HTML
           <td class="{$intlclass}">{$intlstatus}</td>
 HTML;
 ?>
-        <td>kolla</td>
+        <td>16</td>
       </tr>
   </table>
 </body>
