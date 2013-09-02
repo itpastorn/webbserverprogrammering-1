@@ -2,7 +2,7 @@
 /**
  * Visa datum, klockslag och liknande
  *
- * Detta är övningen som motsvarar avsnitt 2.1 i läroboken Webbserverprogrammering 1
+ * Detta Ã¤r Ã¶vningen som motsvarar avsnitt 2.1 i lÃ¤roboken Webbserverprogrammering 1
  */
 
 date_default_timezone_set( FIXTHIS);
@@ -13,18 +13,18 @@ header("Content-type: text/html; charset=utf-8"); ?>
 <html lang="sv">
 <head>
   <meta charset="utf-8" />
-  <title>[Varierande sidtitel som du hittar på själv]</title>
+  <title>[Varierande sidtitel som du hittar pÃ¥ sjÃ¤lv]</title>
   <style>
     body {
         font-family: sans-serif;
-        /* + tillägg du vill göra för att göra sidan lite snyggare */
+        /* + tillÃ¤gg du vill gÃ¶ra fÃ¶r att gÃ¶ra sidan lite snyggare */
     }
   </style>
 </head>
 <body>
-  <h1>[Varierande rubrik som du hittar på själv]</h1>
+  <h1>[Varierande rubrik som du hittar pÃ¥ sjÃ¤lv]</h1>
 <?php
-[Kodblock med output]
+// [Kodblock med output]
 ?>
 </body>
 </html>

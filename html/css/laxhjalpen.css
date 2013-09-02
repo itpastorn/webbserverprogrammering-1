@@ -15,7 +15,10 @@ section, header, footer {
     outline: none; /* reset */
 }
 p {
-    -moz-hyphen: auto;
+    -webkit-hyphen: auto;
+       -moz-hyphen: auto;
+        -ms-hyphen: auto;
+            hyphen: auto;
 }
 .startpage > header,
 .subpage > header {
@@ -49,6 +52,7 @@ Rules for positioning - block, images, captions, etc.
     /* overflow: auto; */
     height: 300px;
     margin-bottom: 20px;
+    position: relative;
 }
 .double {
     border: 1px solid #ccc;
@@ -312,6 +316,13 @@ Nivo Slider
 .nivo-caption {
     text-align: center;
 }
+/* Repeated from /themes/default/default.css - Note: No space between bs and t-d (extra specificty) */
+.blockslider.theme-default .nivo-controlNav {
+	position:absolute;
+	left:50%;
+	bottom:-10px;
+    margin-left:-40px; /* Tweak this to center bullets */
+}
 /*
 =====================================================
 Forms (contact page)
@@ -397,6 +408,7 @@ Blog page, show and edit
     width: 80%;
     height: 15em;
 }
+/*
 =====================================================
 Admin page
 ======================================================

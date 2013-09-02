@@ -1,12 +1,13 @@
 <?php
 /**
- * [Med en mening förklaras vad denna fil innehåller och gör]
+ * [Med en mening fÃ¶rklaras vad denna fil innehÃ¥ller och gÃ¶r]
  *
- * [Med några meningar förklaras det i mer detalj.]
+ * [Med nÃ¥gra meningar fÃ¶rklaras det i mer detalj.]
  */
 
-[Kodblock med inställningar och inledande bearbetningar]
+// [Kodblock med instÃ¤llningar och inledande bearbetningar]
 
-header("Content-type: text/html; charset=utf-8"); ?>
+header("Content-type: text/html; charset=utf-8");
+?>
 FIXME
 
