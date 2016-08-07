@@ -1,6 +1,7 @@
-#################
-## Eclipse
-#################
+# PhpStorm
+.idea
+
+# Eclipse
 
 *.pydevproject
 .project
